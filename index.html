@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>Kimflix</title>
-    <link rel="stylesheet" href="netflix_login.css">
-    <link rel="icon" href="iconfav.png" type="image/png">
+    <link rel="stylesheet" href="css/netflix_login.css">
+    <link rel="icon" href="img/iconfav.png" type="image/png">
 </head>
 <body>
     <div class="logo">
-        <img src="KIMFLIX_logo.png" alt="Netflix Logo">
+        <img src="img/KIMFLIX_logo.png" alt="Netflix Logo">
     </div>
     <div class="login-container" >
         <form class="login-form" id="login-form" onsubmit="submitForm(event)">
@@ -18,7 +17,7 @@
             <input type="text" id="username" placeholder="Nombre de Usuario" required>
             <div class="password-container">
                 <input class="password" type="password" id="pass" placeholder="Contraseña" required>
-                <img src="ojo.png" alt="Show password" class="toggle-password" onclick="togglePasswordVisibility()">
+                <img src="img/ojo.png" alt="Show password" class="toggle-password" onclick="togglePasswordVisibility()">
             </div>
            
             <button type="submit">Iniciar Sesión</button>
@@ -31,48 +30,6 @@
     </div>
 
     
-=======
-    <title>Netflix - Catálogo de Películas</title>
-    <link rel="stylesheet" href="netflix_main.css">
-</head>
-<script>
-    // Obtener la información de la URL
-var urlParams = new URLSearchParams(window.location.search);
-var info = urlParams.get('info');
-
-// Hacer algo con la información obtenida
-console.log(info); // Por ejemplo, mostrarla en la consola
-</script>
-
-<body>
-    <header>
-        <div class="encabezado">
-            <div class="logo">
-                <img src="KIMFLIX_logo.png" alt="Netflix Logo">
-            </div>
-            <div>
-
-            </div>
-        </div>
-    </header>
-
-    <main class="peliculas">
-        <div class="pelicula">
-            <img src="perfil6.png" alt="Pelicula 1">
-            <div class="info">
-                <p class="titulo">Pelicula 1</p>
-            </div>
-        </div>
-        <div class="pelicula">
-            <img src="perfil7.jpg" alt="Pelicula 2">
-            <div class="info">
-                <p class="titulo">Pelicula 2</p>
-            </div>
-        </div>
-        <!-- Agrega más películas aquí -->
-    </main>
-
->>>>>>> a93b6b0f813e8ac15482e1fe9971adcb8f372fee
     <footer class="footer">
         <div class="footer-content">
             <p>Preguntas frecuentes</p>
@@ -82,7 +39,6 @@ console.log(info); // Por ejemplo, mostrarla en la consola
             <p>Información corporativa</p>
         </div>
     </footer>
-<<<<<<< HEAD
 
     <script>
 
@@ -91,10 +47,10 @@ console.log(info); // Por ejemplo, mostrarla en la consola
             var eyeIcon = document.querySelector(".toggle-password");
             if (passwordInput.type === "password") {
                 passwordInput.type = "text";
-                eyeIcon.src = "ojo-abierto.png";
+                eyeIcon.src = "img/ojo-abierto.png";
             } else {
                 passwordInput.type = "password";
-                eyeIcon.src = "ojo.png";
+                eyeIcon.src = "img/ojo.png";
             }
         }
         
@@ -136,8 +92,3 @@ console.log(info); // Por ejemplo, mostrarla en la consola
     </script>
 </body>
 </html>
-=======
-</body>
-</html>
-
->>>>>>> a93b6b0f813e8ac15482e1fe9971adcb8f372fee
