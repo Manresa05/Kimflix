@@ -5,6 +5,18 @@ body {
     background-color: #141414;
 }
 
+.logo {
+    width: 200px;
+    position: absolute; /* posicionamiento absoluto para el logo */
+    top: 20px; /* distancia desde la parte superior */
+    left: 20px; /* distancia desde la izquierda */
+}
+
+.logo img {
+    width: 100%; /* ajustar según el tamaño del logo */
+}
+
+
 .profile-menu {
     width: 80%;
     margin: 50px auto;
